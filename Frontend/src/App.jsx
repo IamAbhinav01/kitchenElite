@@ -1,5 +1,4 @@
 import HomePage from './components/HomePage';
-import Recommended from './components/Recommended';
 import Services from './components/Services';
 
 export default function App() {
@@ -9,8 +8,6 @@ export default function App() {
       <HomePage />
 
       <Services />
-
-      <Recommended />
     </>
   );
 }

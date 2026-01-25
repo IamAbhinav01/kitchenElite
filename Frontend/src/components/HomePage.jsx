@@ -1,9 +1,33 @@
 import bgVideo from '../assets/bg.mp4';
+
 function HomePage() {
   return (
     <div>
+      <nav className="fixed top-0 left-0 w-full z-50 bg-black/40 backdrop-blur-md">
+        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+          {/* Logo */}
+          <h1 className="text-2xl font-bold text-white">
+            Kitchen<span className="text-emerald-400">ELITE</span>
+          </h1>
+
+          {/* Links */}
+          <ul className="hidden md:flex space-x-8 text-white font-medium">
+            <li className="hover:text-emerald-400 cursor-pointer">Home</li>
+            <li className="hover:text-emerald-400 cursor-pointer">Features</li>
+            <li className="hover:text-emerald-400 cursor-pointer">Recipes</li>
+            <li className="hover:text-emerald-400 cursor-pointer">About</li>
+            <li className="hover:text-emerald-400 cursor-pointer">Contact</li>
+          </ul>
+
+          {/* Button */}
+          <button className="hidden md:block bg-emerald-500 hover:bg-emerald-600 text-black px-5 py-2 rounded-lg font-semibold transition">
+            Get Started
+          </button>
+        </div>
+      </nav>
       <div className="relative h-screen w-screen overflow-hidden">
         {/* Background Video */}
+
         <video
           autoPlay
           loop
