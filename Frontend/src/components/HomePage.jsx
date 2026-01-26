@@ -1,11 +1,19 @@
 import bgVideo from '../assets/bg.mp4';
-
+import logo from '../assets/logo.png';
 function HomePage() {
   return (
     <div>
       <nav className="fixed top-0 left-0 w-full z-50 bg-black/40 backdrop-blur-md">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           {/* Logo */}
+          <img
+            src={logo}
+            alt="KitchenElite Logo"
+            className="h-10 w-10 object-contain rounded-full
+               border border-emerald-400
+               shadow-[0_0_12px_rgba(52,211,153,0.5)]
+               group-hover:scale-110 transition-transform duration-300"
+          />
           <h1 className="text-2xl font-bold text-white">
             Kitchen<span className="text-emerald-400">ELITE</span>
           </h1>
