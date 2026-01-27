@@ -1,6 +1,8 @@
-def main():
-    print("Hello from kitchenelite!")
+from fastapi import FastAPI
+
+app =  FastAPI()
 
 
-if __name__ == "__main__":
-    main()
+@app.post('/')
+def welcomePage():
+    return "HI HELLo"
