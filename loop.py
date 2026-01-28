@@ -222,25 +222,109 @@
 # showname()
 
 ## print specific time and date with help of time and date module
-import random
+# import random
 
 
-guess = random.randint(1,10)
-score = 10
-attempts = 0
-while score > 0 and score < 50:
-    num = int(input("Guess the number from 1 - 10 :"))
-    attempts+=1
-    if(num == guess):  
-        print("Congats you are great") 
-        score+=10
+# guess = random.randint(1,10)
+# score = 10
+# attempts = 0
+# while score > 0 and score < 50:
+#     num = int(input("Guess the number from 1 - 10 :"))
+#     attempts+=1
+#     if(num == guess):  
+#         print("Congats you are great") 
+#         score+=10
         
-    elif(num > guess): 
-        print("Your guess is too strong")
-        score-=5
+#     elif(num > guess): 
+#         print("Your guess is too strong")
+#         score-=5
       
-    else: 
-        print("Too weak")
-print("Your score is : ",score)
-print("No of Attempets: ",attempts)
+#     else: 
+#         print("Too weak")
+# print("Your score is : ",score)
+# print("No of Attempets: ",attempts)
 
+
+class Shape:
+    def __init__(self, color):
+        self.color = color
+
+    def area(self):
+        pass
+
+class Circle(Shape):
+    def __init__(self, color, radius):
+        super().__init__(color)
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius**2
+
+class Square(Shape):
+    def __init__(self, color, side_length):
+        super().__init__(color)
+        self.side_length = side_length
+
+    def area(self):
+        return self.side_length**2
+
+# Usage
+circle = Circle(&quot;Red&quot;, 5)
+square = Square(&quot;Blue&quot;, 4)
+print(circle.area()) 
+print(square.area())
+
+
+
+
+# class Vehicle:
+#     def __init__(self,model,color):
+#         self.model = model
+#         self.color = color
+
+#     def show(self):
+#         print("Model : ",self.model)
+#         print("Model : ",self.color)
+# class Car(Vehicle):
+#     def __init__(self,model,color,year):
+#         super().__init__(model, color)
+#         self.year = year
+#     def print(self):
+#         super().show()
+#         print(f"The car is {self.model} and {self.year} year model ")
+
+
+# c1 = Car("civic","black",2019)
+# c1.print();
+# class Employee:
+#     e_id = None
+#     e_salary = None
+#     e_address = None
+    
+#     def __init__(self,e_id,e_salary,e_address):
+#         self.e_id = e_id
+#         self.e_salary = e_salary
+#         self.e_address = e_address
+#     def show_details(self):
+#         if self.e_id == 1:
+#             print(f"Name : Akshay\n Salary : {self.e_salary}\n Address : {self.e_address}")
+        
+#         if self.e_id == 2:
+#             print(f"Name : Amar\n Salary : {self.e_salary}\n Address : {self.e_address}")
+        
+#         if self.e_id == 3:
+#             print(f"Name : Samar\n Salary : {self.e_salary}\n Address : {self.e_address}")
+#     def cases(self):
+
+#         if self.e_id == 1:
+#             print(f"Name : Akshay\n Case : Late to Office")
+        
+#         if self.e_id == 2:
+#             print(f"Name : Amar\n Case : Work Submission Late")
+        
+#         if self.e_id == 3:
+#             print(f"Name : Samar\n Case : Unprofessional tone to Collegues")
+
+
+# e = Employee( 2,"Banglore",1000000)
+# e.show_details()
