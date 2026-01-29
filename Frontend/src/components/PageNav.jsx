@@ -5,7 +5,10 @@ function PageNav() {
     <nav className={styles.nav}>
       <ul>
         <li>
-          <NavLink to="/pricing">Pricing</NavLink>
+          <NavLink to="/features">Features</NavLink>
+        </li>
+        <li>
+          <NavLink to="/nutriscan">Pricing</NavLink>
         </li>
         <li>
           <NavLink to="/product">Product</NavLink>

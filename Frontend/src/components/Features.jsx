@@ -2,6 +2,7 @@ import smartImg from '../assets/smart_reciepe.png';
 import customImg from '../assets/customcooking.png';
 import aiImg from '../assets/cookwithai.png';
 import bgVideo from '../assets/bg.mp4';
+import { Link } from 'react-router-dom';
 
 function Services() {
   return (
@@ -23,7 +24,7 @@ function Services() {
 
         {/* Section Title */}
         <h2 className="text-center text-4xl md:text-5xl font-extrabold mb-16">
-          Services
+          Features
         </h2>
 
         {/* Cards */}
@@ -47,7 +48,7 @@ function Services() {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-white/5 backdrop-blur-lg rounded-2xl shadow-lg hover:scale-105 transition overflow-hidden">
+          <Link to="/nutriscan" className="bg-white/5 backdrop-blur-lg rounded-2xl shadow-lg hover:scale-105 transition overflow-hidden block no-underline">
             <img
               src={customImg}
               alt="Custom Recipes"
@@ -55,14 +56,13 @@ function Services() {
             />
             <div className="p-6">
               <h3 className="text-2xl font-semibold mb-4 text-emerald-400">
-                Custom Recipes
+                NutriScan
               </h3>
               <p className="text-gray-300">
-                Personalized meals tailored to your dietary needs and
-                preferences.
+                Get the details about nutrients present inside your food
               </p>
             </div>
-          </div>
+          </Link>
 
           {/* Card 3 */}
           <div className="bg-white/5 backdrop-blur-lg rounded-2xl shadow-lg hover:scale-105 transition overflow-hidden">
