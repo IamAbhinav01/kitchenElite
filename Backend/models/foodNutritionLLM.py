@@ -3,7 +3,7 @@ import json
 from dotenv import load_dotenv
 load_dotenv()
 from langchain_mistralai import ChatMistralAI
-from utils.image_to_url import image_file_to_data_url
+from utils.image_to_url import image_bytes_to_data_url
 from utils.extracting_json import extract_json
 
 
@@ -12,9 +12,9 @@ class FoodNutritionVisionLLM:
         self.llm = ChatMistralAI(api_key=os.environ["MISTRAL_API_KEY"])
         self.model = "pixtral-12b-2409"
 
-    def analyze_food_image(self, image_path):
+    def analyze_food_image(self, image_bytes):
 
-        image_data_url = image_file_to_data_url(image_path)
+        image_data_url = image_bytes_to_data_url(image_bytes)
 
         prompt = """
 Act as a Clinical Nutritionist and Vision Analysis Expert. Your task is to analyze the food in the provided image with high precision.
@@ -65,6 +65,6 @@ Act as a Clinical Nutritionist and Vision Analysis Expert. Your task is to analy
 
         return extract_json(raw)
     
-food = FoodNutritionVisionLLM()
-result = food.analyze_food_image("models/meal.jpg")
-print(result)
+# food = FoodNutritionVisionLLM()
+# result = food.analyze_food_image("models/meal.jpg")
+# print(result)
