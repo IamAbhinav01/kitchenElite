@@ -245,34 +245,29 @@
 # print("No of Attempets: ",attempts)
 
 
-class Shape:
-    def __init__(self, color):
-        self.color = color
+# class Shape:
+#     def __init__(self, color):
+#         self.color = color
 
-    def area(self):
-        pass
+#     def area(self):
+#         pass
 
-class Circle(Shape):
-    def __init__(self, color, radius):
-        super().__init__(color)
-        self.radius = radius
+# class Circle(Shape):
+#     def __init__(self, color, radius):
+#         super().__init__(color)
+#         self.radius = radius
 
-    def area(self):
-        return 3.14 * self.radius**2
+#     def area(self):
+#         return 3.14 * self.radius**2
 
-class Square(Shape):
-    def __init__(self, color, side_length):
-        super().__init__(color)
-        self.side_length = side_length
+# class Square(Shape):
+#     def __init__(self, color, side_length):
+#         super().__init__(color)
+#         self.side_length = side_length
 
-    def area(self):
-        return self.side_length**2
+#     def area(self):
+#         return self.side_length**2
 
-# Usage
-circle = Circle(&quot;Red&quot;, 5)
-square = Square(&quot;Blue&quot;, 4)
-print(circle.area()) 
-print(square.area())
 
 
 
@@ -328,3 +323,44 @@ print(square.area())
 
 # e = Employee( 2,"Banglore",1000000)
 # e.show_details()
+
+# class Employee:
+#     def __init__(self):
+#         self.name = "Abhinav"
+#         self.__id = 1
+#     def get_id(self):
+#         return self.__id
+#     def set_id(self,value):
+#         self.__id = value
+
+# e1 = Employee()
+# print(e1.name)
+
+class Student :
+    def __init__(self):
+        self._age = 20
+        self._name = "Abhinav"
+        self._state = "Kerala"
+    def get_name(self):
+        print("getterMethod for Age")
+        return self._age
+    def get_state(self):
+         print("getterMethod for name")
+         return self._name
+    def get_age(self):
+         print("getterMethod for state")
+         return self._state
+    
+    def set_age(self,a):
+        print("setter method for age")
+        self._age = a
+    def set_age(self,a):
+        print("setter method for name")
+        self._name = a
+    def set_age(self,a):
+        print("setter method for state")
+        self._state = a
+
+abhinav = Student()
+print(abhinav.get_name)
+print(abhinav._name)
