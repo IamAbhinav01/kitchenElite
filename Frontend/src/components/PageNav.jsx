@@ -8,7 +8,7 @@ function PageNav() {
           <NavLink to="/features">Features</NavLink>
         </li>
         <li>
-          <NavLink to="/nutriscan">Pricing</NavLink>
+          <NavLink to="/nutriscan">NutriScan</NavLink>
         </li>
         <li>
           <NavLink to="/product">Product</NavLink>

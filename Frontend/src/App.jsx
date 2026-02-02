@@ -31,6 +31,7 @@ export default function App() {
                 Features
               </Link>
             </li>
+
             <li className="hover:text-emerald-400 cursor-pointer">Recipes</li>
             <li className="hover:text-emerald-400 cursor-pointer">About</li>
             <li className="hover:text-emerald-400 cursor-pointer">Contact</li>
