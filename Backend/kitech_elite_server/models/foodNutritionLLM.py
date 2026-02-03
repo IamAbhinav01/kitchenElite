@@ -66,5 +66,7 @@ Act as a Clinical Nutritionist and Vision Analysis Expert. Your task is to analy
         return extract_json(raw)
     
 # food = FoodNutritionVisionLLM()
-# result = food.analyze_food_image("models/meal.jpg")
+# with open("models/meal.jpg", "rb") as f:   # read in binary mode
+#     image_bytes = f.read()
+# result = food.analyze_food_image(image_bytes)
 # print(result)
