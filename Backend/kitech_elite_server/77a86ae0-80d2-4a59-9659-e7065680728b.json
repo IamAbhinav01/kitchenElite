@@ -1,0 +1,14 @@
+[
+    {
+        "sender": "assistant",
+        "content": "Here is the recipe JSON:\n{\n  \"recipe_name\": \"Idli\",\n  \"ingredients\": [\n    \"2 cups idli rice\",\n    \"1 cup urad dal\",\n    \"1/2 cup fenugreek seeds\",\n    \"1/2 teaspoon salt\",\n    \"water as needed\"\n  ],\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"instruction\": \"Soak the idli rice, urad dal, and fenugreek seeds in water for 4-5 hours\",\n      \"time\": \"4-5 hours\",\n      \"tip\": \"Use a large bowl to soak the ingredients\"\n    },\n    {\n      \"step_number\": 2,\n      \"instruction\": \"Grind the soaked ingredients into a smooth batter\",\n      \"time\": \"30 minutes\",\n      \"tip\": \"Use a wet grinder or mixer to grind the ingredients\"\n    },\n    {\n      \"step_number\": 3,\n      \"instruction\": \"Add salt to the batter and mix well\",\n      \"time\": \"5 minutes\",\n      \"tip\": \"Use a spoon to mix the batter\"\n    },\n    {\n      \"step_number\": 4,\n      \"instruction\": \"Ferment the batter overnight or for 8-10 hours\",\n      \"time\": \"8-10 hours\",\n      \"tip\": \"Keep the batter in a warm place to ferment\"\n    },\n    {\n      \"step_number\": 5,\n      \"instruction\": \"Grease the idli molds with oil or ghee\",\n      \"time\": \"5 minutes\",\n      \"tip\": \"Use a brush to grease the molds\"\n    },\n    {\n      \"step_number\": 6,\n      \"instruction\": \"Pour the fermented batter into the idli molds\",\n      \"time\": \"5 minutes\",\n      \"tip\": \"Fill the molds 3/4th with the batter\"\n    },\n    {\n      \"step_number\": 7,\n      \"instruction\": \"Steam the idlis for 15-20 minutes\",\n      \"time\": \"15-20 minutes\",\n      \"tip\": \"Use a steamer or idli cooker to steam the idlis\"\n    }\n  ]\n}"
+    },
+    {
+        "sender": "user",
+        "content": "which curry is best with it"
+    },
+    {
+        "sender": "assistant",
+        "content": "Idlis are typically served with a variety of curries, but some popular options include:\n\n1. Sambar: A spicy lentil-based curry that is a classic combination with idlis.\n2. Coconut Chutney: A creamy and flavorful chutney made with coconut, chilies, and spices.\n3. Tomato Chutney: A tangy and sweet chutney made with tomatoes, onions, and spices.\n4. Vada Curry: A flavorful curry made with lentil dumplings (vadas) in a spicy tomato-based gravy.\n\nWhich one of these curries sounds appealing to you?"
+    }
+]

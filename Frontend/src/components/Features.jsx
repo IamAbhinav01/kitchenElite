@@ -30,7 +30,10 @@ function Services() {
         {/* Cards */}
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Card 1 */}
-          <div className="bg-white/5 backdrop-blur-lg rounded-2xl shadow-lg hover:scale-105 transition overflow-hidden">
+          <Link
+            to="/smart-recipe"
+            className="bg-white/5 backdrop-blur-lg rounded-2xl shadow-lg hover:scale-105 transition overflow-hidden"
+          >
             <img
               src={smartImg}
               alt="Smart Recipes"
@@ -45,10 +48,13 @@ function Services() {
                 preferences.
               </p>
             </div>
-          </div>
+          </Link>
 
           {/* Card 2 */}
-          <Link to="/nutriscan" className="bg-white/5 backdrop-blur-lg rounded-2xl shadow-lg hover:scale-105 transition overflow-hidden block no-underline">
+          <Link
+            to="/nutriscan"
+            className="bg-white/5 backdrop-blur-lg rounded-2xl shadow-lg hover:scale-105 transition overflow-hidden block no-underline"
+          >
             <img
               src={customImg}
               alt="Custom Recipes"
@@ -65,7 +71,10 @@ function Services() {
           </Link>
 
           {/* Card 3 */}
-          <div className="bg-white/5 backdrop-blur-lg rounded-2xl shadow-lg hover:scale-105 transition overflow-hidden">
+          <Link
+            to="/prepare-ai"
+            className="bg-white/5 backdrop-blur-lg rounded-2xl shadow-lg hover:scale-105 transition overflow-hidden"
+          >
             <img
               src={aiImg}
               alt="Prepare with AI"
@@ -79,7 +88,7 @@ function Services() {
                 Step-by-step cooking guidance from your AI kitchen assistant.
               </p>
             </div>
-          </div>
+          </Link>
         </div>
       </section>
     </div>

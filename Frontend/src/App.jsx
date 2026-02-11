@@ -2,7 +2,9 @@ import { BrowserRouter, Routes, Route, Navigate, Link } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import Features from './components/Features';
 import NutriScan from './pages/NutriScan';
+import PrepareWithAI from './pages/Prepare_with_AI';
 import logo from './assets/logo.png';
+import SmartReciepe from './pages/SmartReciepe';
 
 export default function App() {
   return (
@@ -47,6 +49,8 @@ export default function App() {
         <Route index element={<HomePage />} />
         <Route path="/features" element={<Features />} />
         <Route path="/nutriscan" element={<NutriScan />} />
+        <Route path="/prepare-ai" element={<PrepareWithAI />} />
+        <Route path="/smart-recipe" element={<SmartReciepe />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,0 +1,38 @@
+[
+    {
+        "sender": "assistant",
+        "content": "Here is the recipe JSON:\n{\n  \"recipe_name\": \"Paneer Tikka\",\n  \"ingredients\": [\n    \"250 grams paneer\",\n    \"1/2 cup plain yogurt\",\n    \"1 tablespoon lemon juice\",\n    \"1 teaspoon garam masala\",\n    \"1 teaspoon cumin powder\",\n    \"1/2 teaspoon cayenne pepper\",\n    \"1/2 teaspoon salt\",\n    \"1/4 teaspoon black pepper\",\n    \"2 tablespoons butter\",\n    \"2 tablespoons chopped cilantro\",\n    \"2 cloves garlic, minced\",\n    \"1 tablespoon ginger paste\",\n    \"10-12 bamboo skewers\"\n  ],\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"instruction\": \"Cut the paneer into small cubes and set aside\",\n      \"time\": \"5 minutes\",\n      \"tip\": \"Make sure to pat the paneer dry with a paper towel before cutting\"\n    },\n    {\n      \"step_number\": 2,\n      \"instruction\": \"In a large bowl, whisk together the yogurt, lemon juice, garam masala, cumin powder, cayenne pepper, salt, and black pepper\",\n      \"time\": \"5 minutes\",\n      \"tip\": \"Adjust the amount of spices according to your taste\"\n    },\n    {\n      \"step_number\": 3,\n      \"instruction\": \"Add the paneer cubes to the marinade and mix well to coat\",\n      \"time\": \"10 minutes\",\n      \"tip\": \"Make sure the paneer is fully coated with the marinade\"\n    },\n    {\n      \"step_number\": 4,\n      \"instruction\": \"Cover the bowl with plastic wrap and refrigerate for at least 30 minutes\",\n      \"time\": \"30 minutes\",\n      \"tip\": \"The longer you marinate, the better the flavor will be\"\n    },\n    {\n      \"step_number\": 5,\n      \"instruction\": \"Preheat a grill or grill pan to medium-high heat\",\n      \"time\": \"5 minutes\",\n      \"tip\": \"You can also use a conventional oven at 400\\u00b0F (200\\u00b0C) for 15-20 minutes\"\n    },\n    {\n      \"step_number\": 6,\n      \"instruction\": \"Thread the marinated paneer cubes onto the bamboo skewers, leaving a little space between each cube\",\n      \"time\": \"5 minutes\",\n      \"tip\": \"Brush the skewers with butter before grilling for extra flavor\"\n    },\n    {\n      \"step_number\": 7,\n      \"instruction\": \"Grill the paneer tikka for 8-10 minutes, turning occasionally, until it's golden brown and slightly charred\",\n      \"time\": \"8-10 minutes\",\n      \"tip\": \"Brush the paneer with butter during the last minute of grilling\"\n    },\n    {\n      \"step_number\": 8,\n      \"instruction\": \"Serve the paneer tikka hot, garnished with cilantro, garlic, and ginger paste\",\n      \"time\": \"5 minutes\",\n      \"tip\": \"You can serve it with a side of mint chutney or naan bread\"\n    }\n  ]\n}"
+    },
+    {
+        "sender": "user",
+        "content": "what dish was i cooking for"
+    },
+    {
+        "sender": "assistant",
+        "content": "You were cooking Paneer Tikka. What step are you on?"
+    },
+    {
+        "sender": "user",
+        "content": "hi hello my name is Abhinav , ia going to cook chicken"
+    },
+    {
+        "sender": "assistant",
+        "content": "Hello Abhinav, nice to meet you. You're going to cook chicken, but I think we had a previous recipe going on, which was Paneer Tikka. Are you starting a new recipe with chicken, or would you like to go back to the Paneer Tikka recipe?"
+    },
+    {
+        "sender": "user",
+        "content": "what was my name"
+    },
+    {
+        "sender": "assistant",
+        "content": "Your name is Abhinav."
+    },
+    {
+        "sender": "user",
+        "content": "what was i cooking fo"
+    },
+    {
+        "sender": "assistant",
+        "content": "You were cooking chicken, and before that, you were cooking Paneer Tikka."
+    }
+]

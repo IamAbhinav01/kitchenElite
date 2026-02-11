@@ -20,23 +20,36 @@ function NutriScan() {
     setImage(file);
     setPreview(URL.createObjectURL(file));
   };
-
   const handleScan = async () => {
     if (!image) {
       alert('Please upload an image first');
       return;
     }
-    setLoading(true);
-    setTimeout(() => {
-      setResult({
-        food_name: 'Grilled Salmon',
-        estimated_portion_size: '150g',
-        calories_kcal: 312,
-        macronutrients: { protein_g: 30, carbohydrates_g: 0, fat_g: 21 },
-        micronutrients: { fiber_g: 0, sugars_g: 0, sodium_mg: 75 },
+
+    try {
+      setLoading(true);
+
+      const formData = new FormData();
+      formData.append('image', image);
+
+      const response = await fetch('http://127.0.0.1:8000/api/scan/', {
+        method: 'POST',
+        body: formData,
       });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Scan failed');
+      }
+
+      setResult(data);
+    } catch (error) {
+      console.error(error);
+      alert('Scanning failed!');
+    } finally {
       setLoading(false);
-    }, 1500);
+    }
   };
 
   return (

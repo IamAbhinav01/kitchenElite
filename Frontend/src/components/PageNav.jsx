@@ -11,7 +11,7 @@ function PageNav() {
           <NavLink to="/nutriscan">NutriScan</NavLink>
         </li>
         <li>
-          <NavLink to="/product">Product</NavLink>
+          <NavLink to="/prepare-ai">Prepare-AI</NavLink>
         </li>
         <li>
           <NavLink to="/login">Login</NavLink>
