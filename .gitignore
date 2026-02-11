@@ -1,3 +1,7 @@
 python_basics
 index.html
 style.css
+Backend/MODEL_TRAINIG/
+*.index
+*.safetensors
+*.parquet
