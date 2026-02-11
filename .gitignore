@@ -1,1 +1,13 @@
 python_basics
+# ML Artifacts
+*.index
+*.safetensors
+*.pt
+*.bin
+
+# Training folders
+Backend/MODEL_TRAINIG/
+
+# Cache
+__pycache__/
+*.pyc
