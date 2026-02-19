@@ -2,7 +2,7 @@ import bgVideo from '../assets/smartReciepe.mp4';
 import React, { useEffect, useState } from 'react';
 
 const SmartRecipe = () => {
-  const [recommendedRecipes, setRecommendedRecipes] = useState([]);
+  const [recommendedRecipes, setRecommendedRecipes] = useState([]); //useState
   const [searchQuery, setSearchQuery] = useState('paneer');
   const [selectedRecipe, setSelectedRecipe] = useState(null);
   const [isLoading, setIsLoading] = useState(false); // Added loading state
