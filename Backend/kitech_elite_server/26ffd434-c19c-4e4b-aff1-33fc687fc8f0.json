@@ -1,0 +1,14 @@
+[
+    {
+        "sender": "assistant",
+        "content": "Here is the recipe JSON:\n{\n  \"recipe_name\": \"Classic Garlic Bread\",\n  \"ingredients\": [\n    \"1 loaf of Italian bread\",\n    \"3 cloves of garlic, minced\",\n    \"1/2 cup of butter, softened\",\n    \"1/2 cup of grated Parmesan cheese\",\n    \"Salt and pepper to taste\"\n  ],\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"instruction\": \"Preheat the oven to 350\\u00b0F (175\\u00b0C).\",\n      \"time\": \"5 minutes\",\n      \"tip\": \"Make sure the oven is preheated to the correct temperature for even cooking.\"\n    },\n    {\n      \"step_number\": 2,\n      \"instruction\": \"Slice the Italian bread into 1-inch thick slices.\",\n      \"time\": \"2 minutes\",\n      \"tip\": \"Use a serrated knife to get clean cuts.\"\n    },\n    {\n      \"step_number\": 3,\n      \"instruction\": \"In a small bowl, mix together the minced garlic and softened butter until well combined.\",\n      \"time\": \"2 minutes\",\n      \"tip\": \"Use high-quality garlic for the best flavor.\"\n    },\n    {\n      \"step_number\": 4,\n      \"instruction\": \"Spread the garlic butter mixture evenly onto each bread slice.\",\n      \"time\": \"3 minutes\",\n      \"tip\": \"Make sure to spread the mixture all the way to the edges.\"\n    },\n    {\n      \"step_number\": 5,\n      \"instruction\": \"Sprinkle the grated Parmesan cheese over the garlic butter.\",\n      \"time\": \"1 minute\",\n      \"tip\": \"Use freshly grated cheese for the best flavor.\"\n    },\n    {\n      \"step_number\": 6,\n      \"instruction\": \"Place the bread slices on a baking sheet lined with parchment paper.\",\n      \"time\": \"2 minutes\",\n      \"tip\": \"Leave some space between each slice for even cooking.\"\n    },\n    {\n      \"step_number\": 7,\n      \"instruction\": \"Bake the garlic bread in the preheated oven for 10-12 minutes, or until golden brown.\",\n      \"time\": \"10-12 minutes\",\n      \"tip\": \"Keep an eye on the bread to prevent burning.\"\n    }\n  ]\n}"
+    },
+    {
+        "sender": "user",
+        "content": "what was i trying to prepare"
+    },
+    {
+        "sender": "assistant",
+        "content": "You were trying to prepare Classic Garlic Bread. What's the current step you're on?"
+    }
+]

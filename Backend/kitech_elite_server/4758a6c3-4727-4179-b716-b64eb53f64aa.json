@@ -1,0 +1,14 @@
+[
+    {
+        "sender": "assistant",
+        "content": "Here is the recipe JSON:\n{\n  \"recipe_name\": \"Paneer Masala\",\n  \"ingredients\": [\n    \"250 grams paneer\",\n    \"2 large onions\",\n    \"2 large tomatoes\",\n    \"1 teaspoon cumin seeds\",\n    \"1 teaspoon coriander powder\",\n    \"1 teaspoon garam masala powder\",\n    \"1/2 teaspoon turmeric powder\",\n    \"1/2 teaspoon red chili powder\",\n    \"1/2 teaspoon salt\",\n    \"2 tablespoons butter\",\n    \"2 tablespoons oil\",\n    \"2 cloves garlic\",\n    \"1 inch ginger\",\n    \"2 tablespoons tomato puree\",\n    \"1 tablespoon fenugreek leaves\",\n    \"1 cup water\",\n    \"Fresh cilantro for garnish\"\n  ],\n  \"steps\": [\n    {\n      \"step_number\": 1,\n      \"instruction\": \"Heat oil in a pan and saut\\u00e9 the onions until they are translucent.\",\n      \"time\": \"5 minutes\",\n      \"tip\": \"Use a large pan to saut\\u00e9 the onions.\"\n    },\n    {\n      \"step_number\": 2,\n      \"instruction\": \"Add the cumin seeds, coriander powder, garam masala powder, turmeric powder, and red chili powder. Cook for 1 minute.\",\n      \"time\": \"1 minute\",\n      \"tip\": \"Stir continuously to avoid burning the spices.\"\n    },\n    {\n      \"step_number\": 3,\n      \"instruction\": \"Add the ginger and garlic and cook for another minute.\",\n      \"time\": \"1 minute\",\n      \"tip\": \"Grate the ginger and garlic for better flavor.\"\n    },\n    {\n      \"step_number\": 4,\n      \"instruction\": \"Add the tomato puree and cook until the oil separates.\",\n      \"time\": \"5 minutes\",\n      \"tip\": \"Use fresh tomatoes for the puree.\"\n    },\n    {\n      \"step_number\": 5,\n      \"instruction\": \"Add the paneer and cook for 5 minutes.\",\n      \"time\": \"5 minutes\",\n      \"tip\": \"Cut the paneer into small cubes for even cooking.\"\n    },\n    {\n      \"step_number\": 6,\n      \"instruction\": \"Add the water and bring to a boil. Then reduce the heat and simmer for 10 minutes.\",\n      \"time\": \"10 minutes\",\n      \"tip\": \"Adjust the water according to the desired consistency.\"\n    },\n    {\n      \"step_number\": 7,\n      \"instruction\": \"Add the butter and fenugreek leaves. Cook for another 2 minutes.\",\n      \"time\": \"2 minutes\",\n      \"tip\": \"Use fresh fenugreek leaves for better flavor.\"\n    },\n    {\n      \"step_number\": 8,\n      \"instruction\": \"Garnish with cilantro and serve hot.\",\n      \"time\": \"1 minute\",\n      \"tip\": \"Serve with naan or rice.\"\n    }\n  ]\n}"
+    },
+    {
+        "sender": "user",
+        "content": "how much time will it take"
+    },
+    {
+        "sender": "assistant",
+        "content": "It will take approximately 30-35 minutes to prepare the Paneer Masala recipe."
+    }
+]
