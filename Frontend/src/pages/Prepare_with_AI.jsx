@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { Send, ChefHat, Timer, Lightbulb, UtensilsCrossed } from 'lucide-react';
 import bgVideo from '../assets/prepai.mp4';
 
-const API_BASE = 'http://127.0.0.1:8000/api';
+const API_BASE = `${import.meta.env.VITE_API_BASE_URL}/api`;
 
 export default function PrepareWithAI() {
   // ---------------- STATES ----------------

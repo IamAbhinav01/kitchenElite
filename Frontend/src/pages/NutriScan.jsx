@@ -32,7 +32,7 @@ function NutriScan() {
       const formData = new FormData();
       formData.append('image', image);
 
-      const response = await fetch('http://127.0.0.1:8000/api/scan/', {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/scan/`, {
         method: 'POST',
         body: formData,
       });
