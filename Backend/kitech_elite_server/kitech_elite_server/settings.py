@@ -25,10 +25,14 @@ load_dotenv(BASE_DIR.parent / ".env")
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-ilvwvobdp!7msu#oa*^3!4+ke72qwqum2!*-*kryvywgwmhdgt'
+# Production: set SECRET_KEY in Render environment variables (never commit real keys)
+SECRET_KEY = os.environ.get(
+    "SECRET_KEY",
+    "django-insecure-ilvwvobdp!7msu#oa*^3!4+ke72qwqum2!*-*kryvywgwmhdgt"
+)
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# Production: set DEBUG=False in Render environment variables
+DEBUG = os.environ.get("DEBUG", "False").lower() in ("true", "1", "yes")
 
 ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1").split(",")
 
@@ -127,6 +131,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
+# Required for collectstatic in production
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
