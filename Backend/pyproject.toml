@@ -27,6 +27,7 @@ dependencies = [
     "torch", # Add these three explicitly to the dependencies list
     "torchvision",
     "torchaudio",
+    "gunicorn>=21.2.0",
     "faiss-cpu>=1.13.2",
     "ipykernel>=7.2.0",
     "wikipedia>=1.4.0",
